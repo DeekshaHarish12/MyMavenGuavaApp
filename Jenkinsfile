@@ -19,10 +19,9 @@ pipeline {
         }
 
         stage('Run Application') {
-    steps {
-        echo 'Skipping run stage'
-    }
-}
+            steps {
+                echo 'Skipping run stage'
+            }
         }
     }
 
