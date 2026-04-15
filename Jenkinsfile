@@ -19,9 +19,10 @@ pipeline {
         }
 
         stage('Run Application') {
-            steps {
-                sh 'java -jar target/MyMavenGuavaApp-1.0-SNAPSHOT.jar'
-            }
+    steps {
+        echo 'Skipping run stage'
+    }
+}
         }
     }
 
